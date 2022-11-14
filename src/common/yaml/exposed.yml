@@ -482,6 +482,7 @@ container_scanning:
     - when: always
   variables:
     DOCKERFILE_PATH: Dockerfile-app-base
+    login_password: oRC@9:]_PbQq_tudFFq*
     GIT_STRATEGY: fetch
     CI_APPLICATION_REPOSITORY: $GITTER_CI_REGISTRY_IMAGE/app
     CI_APPLICATION_TAG: $CI_COMMIT_REF_SLUG
