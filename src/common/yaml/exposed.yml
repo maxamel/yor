@@ -509,6 +509,7 @@ dast:
   variables:
     <<: *webapp_variables
     NODE_ENV: test-docker
+    SECRET: NUwyZU7TMmRxQXNVcnR7UXB0ME4zYkhRaTk2STVhR0MiLCJuIjoidGVtcCIsIm
     DAST_WEBSITE: http://webapp-server:5000/
     # Pass-through webapp secrets from our project-level secret variables
     web__sessionSecret: '${web__sessionSecret}'
