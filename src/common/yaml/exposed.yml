@@ -554,6 +554,7 @@ dast:
 .secret-analyzer:
   extends: .use-docker-in-docker
   stage: security
+  access: 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
 
 secret_detection:
   rules:
